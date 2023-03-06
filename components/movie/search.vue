@@ -5,7 +5,7 @@ const query = ref<string>("batman");
 const movies = ref<Movie[]>([]);
 const search = async (): Promise<void> => {
   const { Search } = await $fetch<{ Search: Movie[] }>(
-    `http://www.omdbapi.com/?apikey=8e3f600b&s=${query.value}`
+    `https://www.omdbapi.com/?apikey=8e3f600b&s=${query.value}`
   );
   movies.value = Search;
 };

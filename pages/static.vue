@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>STATIC</h1>
-    <h2>{{ new Date() }}</h2>
+    <h1 class="font-bold text-3xl text-white text-center">STATIC</h1>
+    <h2 class="font-semibold text-2xl text-white text-center">
+      {{ new Date() }}
+    </h2>
   </div>
 </template>

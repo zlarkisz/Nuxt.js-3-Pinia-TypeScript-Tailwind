@@ -1,42 +1,30 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Pinia TypeScript Tailwind Movie App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![eozu62uqnpka4l58nhah](https://user-images.githubusercontent.com/30796513/223064817-acda0ad1-c0d8-4dd1-99ed-7795035dfde9.jpg)
 
-## Setup
+This project is a movie application that uses Nuxt 3 as the frontend framework, Pinia as the state management library, TypeScript for type checking, and Tailwind for styling. The app retrieves movie data from the Open Movie Database (OMDb) API.
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# yarn
-yarn install
+- Search for movies by title
+- View detailed information about movies, including the plot, release year, and poster
+- Save movies to a watchlist for later viewing
 
-# npm
-npm install
+## Deployment
 
-# pnpm
-pnpm install
-```
+The app is deployed on Netlify and can be accessed at https://singular-selkie-b775ef.netlify.app/.
 
-## Development Server
+## Project Setup
 
-Start the development server on http://localhost:3000
+1. Clone the repository:
 
 ```bash
-npm run dev
+  git clone https://github.com/{your-username}/{your-repo-name}.git
 ```
 
-## Production
-
-Build the application for production:
+2. Install dependencies:
 
 ```bash
-npm run build
+   cd {your-repo-name}
+   npm install
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
